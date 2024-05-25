@@ -1,0 +1,11 @@
+// main.scss -> main.css {compile}
+@import "colors";
+
+// default paramaters
+@mixin justifyAdapter ($justifyContent: flex-start) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: center;
+  height: 100vh;
+}
+
